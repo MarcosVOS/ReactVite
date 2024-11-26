@@ -1,0 +1,24 @@
+.GameItem {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 300px; 
+    width: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.GameItem img {
+    max-width: 100%;
+    max-height: 150px; 
+    border-radius: 5px;
+    object-fit: cover; 
+}
+
+.GameLabel > h4{
+    display: flex;
+}
