@@ -24,7 +24,6 @@
 .ContainerContentTwo{
     width: 100%;
     height: 100%;
-    margin: 2rem;
 }
 
 .ContainerHeader{
@@ -57,10 +56,21 @@
     gap: 1rem;
     margin-top: 1rem;
     padding: 1rem;
-    justify-items: center; 
+    justify-content: center;
+    justify-items: center;  
     width: 100%; 
     max-width: 1200px; 
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
+    margin: 0 auto; 
+    height: calc(80vh - 5rem);
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    .ContainerHeader > span {
+        font-size: 1rem; 
+    }
+
+    .MainContainer h1 {
+        font-size: 1rem; 
+    }
 }
