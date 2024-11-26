@@ -1,0 +1,22 @@
+.labelStyle{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formStyle > div {
+    display: flex;
+    align: center;
+    justify-content:flex-start;
+    gap: 1rem;
+}
